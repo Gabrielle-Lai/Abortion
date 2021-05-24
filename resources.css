@@ -1,0 +1,393 @@
+html, body{
+    height: 100%;
+    font-size: 20px; /* Change the font size*/
+    font-family: "Roboto", sans-serif; /* Change the font */
+    line-height: 1.5em; /* Change the line height size*/
+    margin: 0em;
+    color: white; /* Change the font color*/
+    box-sizing: border-box;
+  }
+
+  .grad {
+    background-image: linear-gradient(#e1eff3, #e1eff3);
+    background-size: cover;
+  }
+  
+  h1 {
+    padding: 30px;
+    margin-top: 80px;
+    font-size: 50px;
+    font-family: "Roboto Mono", sans-serif;
+    color: #214854;
+    text-align: center;
+  }
+  
+  /*TODO: Change the font-family property to your linked font*/
+  h2 {
+    font-size: 45px;
+    font-family: "Roboto Mono", sans-serif;
+    color: white;
+    background-color: #427585;
+    padding: 20px;
+    text-shadow: 5px 5px #214854;
+    text-align: center;
+    line-height: 1.3em;
+  }
+  
+  h3{
+    padding: 30px;
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: "Roboto Mono", sans-serif;
+    color: white;
+    background-color: #214854;
+    text-align: center;
+    text-shadow: 3px 3px #427585;
+  }
+  
+  h4{
+    text-align: center;
+    font-size: 30px;
+    color: #4d6e79;
+  }
+  
+  h5{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #6492a0;
+    border: dotted;
+    padding: 10px;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+  
+  h6{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #667d85;
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  
+  p{
+    color: whitesmoke;
+  }
+  
+  .about{
+    color: #577883;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+  ol{
+    color: #3b6875;
+    margin: 70px;
+  }
+  
+  .facts{
+    padding: 20px;
+  }
+  
+  .navbar {
+    /* Styling for the <ul class="navbar"> element */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c0e1eb;
+    border-style: solid;
+    border-color: #214854;
+  }
+  
+  a.navbar-nav {
+    /* Styling for the <li class="nav"> element */
+    float: right;
+    font-size: 15px;
+    display: block;
+  }
+
+  a.nav-item {
+    /* Styling for the <a> elements in <li class="nav"> */
+    display: block;
+    color: #214854;
+    text-align: left;
+    padding: 14px 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  a.nav-item:hover {
+    background-color: #427585;
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+    border: solid;
+    border-color: #6492a0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .flex-container {
+    display: flex; /* Set the flexbox display */
+    flex-direction: row; /* Configure the flex items to row */
+    flex-wrap: nowrap; /* Donâ€™t wrap the flex items */
+    justify-content: center; /* Justify the flex items to the center */
+    align-items: center; /* Align the flex items to the center */
+  
+    /* Design properties */
+    background-color: rgb(230, 223, 226, 0.9);
+    padding: 5px;
+    border: solid;
+    border-color: #0d3845;
+  
+    /* Positioning properties */
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 40%; /* Change this value to move the box up or down */
+  
+    /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+    /*border-style: dotted;*/
+  }
+  
+  .heading-home {
+    padding: 15px;
+    margin-right: 0px;
+    margin-left: 50px;
+    color: #214854;
+    background-color: #e8f3f7;
+    font-size: 30px;
+    font-family: 'Georgia', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px;
+    border: solid;
+  
+    /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+    /*border-style: dotted;*/
+  }
+  
+  /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
+  .intro-text {
+    background-color: #427585;
+    padding: 27px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px; /* Adds space between letters */
+    line-height: 1.4em; /* Adds space between lines */
+    text-align: center;
+    border: 2px;
+    border: solid;
+    border-color: #214854;
+    
+  
+    /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+    /*border-style: dotted;*/
+  }
+  
+  /************************************************/
+  /*************** PARALLAX SCROLL ****************/
+  /************************************************/
+  
+  /*-----------TEXT SECTIONS-----------*/
+  
+  /* TODO (optional): Change the background color and/or text alignment */
+  
+  .text-section {
+    background-color: #6492a0;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 20px 45px;
+    margin: 35px;
+    text-align: center;
+    border: solid;
+    border-color: #3a525a;
+    border-width: 3px;
+  }
+  
+  .stat1{
+    padding: 30px;
+  }
+  
+  /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
+  
+  /* TODO: Add the CSS selector for each image to the collective image rule set */
+  
+  .main-message,
+  .image-one {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  /* PARALLAX */
+    min-height: 100%; /* This adjusts the height of the image */
+  
+    /* TODO: Add the property to create the parallax scrolling effect here */
+    
+  }
+  
+  /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
+  .main-message {
+    background-image: url("https://images.theconversation.com/files/194386/original/file-20171113-27576-a1s7xf.jpg?ixlib=rb-1.1.0&rect=19%2C0%2C3268%2C1631&q=45&auto=format&w=1356&h=668&fit=crop");
+  }
+  
+  .barrierimg{
+    border: solid;
+    border-width: 8px;
+    border-color: #3a525a;
+  }
+  
+  .image-one {
+    background-image: url("https://hbr.org/resources/images/article_assets/2018/10/Oct22_18_862457080.png");
+  }
+  
+  /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+  
+  /* TODO: Add more background images by repeating the process above */
+  
+  /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
+  .attributions {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .about-attributions{
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+    color: #6492a0;
+  }
+  
+  /******************************************************/
+  /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
+  /******************************************************/
+  
+  /* TODO: Add a breakpoint if the screen is 700px or less */
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto; /* this creates 5 columns with equal width */
+    grid-gap: 20px; /* this adds 10px of space between all rows and columns */
+    height: 450px;
+    margin-top: 50px;
+    background-color: #6492a0;
+  }
+  
+  .grid-item{
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+    background-color: #214854;
+    box-shadow: 6px 6px 5px #c0e1eb;
+  }
+  
+  .image-two{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    background-image: url("https://www.touchstonemh.org/wp-content/uploads/2020/06/charity-volunteering-and-donating-concept-raised-up-human-hands-with-vector-id1188864563-1-2100x800.jpg")
+  }
+  
+  .btn{
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    margin: 100px;
+    box-shadow: #6492a0;
+  }
+  
+  .advocates{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+  }
+  
+  .advocateimg{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid;
+    border-width: 5px;
+    border-color: #214854;
+    background-color: #e8f3f7;
+  }
+  
+  .advocateheading{
+    text-align: center;
+  }
+  
+  .advocatetext{
+    color: #214854;
+    margin: 75px;
+    text-align: center;
+  }
+  
+  .resources{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+  }
+  
+  .resourceimg{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid;
+    border-width: 10px;
+    border-color: #214854;
+  }
+  
+  .resourceimg:hover{
+    border-color: #49bcdf;
+    opacity: 0.5;
+  }
+  
+  .resourceheading{
+    text-align: center;
+  }
+  
+  iframe{
+    display: inline-block;
+    margin: 15px;
+    border: solid;
+    border-width: 5px;
+    border-color: #214854;
+  }
+
+  table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: rgb(243, 235, 192);
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .tablehead {
+    background-color: rgb(247, 228, 123);
+  }
